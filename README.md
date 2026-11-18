@@ -11,15 +11,6 @@ The included `student_performance_demo.csv` is synthetic demonstration data. It 
 - `src/`: reusable analysis script
 - `visualizations/`: generated charts (created when you run the analysis)
 
-## Setup with Anaconda
-```bash
-conda create -n student-analysis python=3.12 -y
-conda activate student-analysis
-pip install -r requirements.txt
-jupyter notebook
-```
-Open `notebooks/Student_Academic_Performance_Analysis.ipynb` and run all cells.
-
 To run the script:
 ```bash
 python src/analyze_student_performance.py
